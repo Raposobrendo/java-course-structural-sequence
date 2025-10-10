@@ -3,7 +3,7 @@ package sequentialStructure;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Main {
+public class FirstCode {
     public static void main(String[] Args) {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
@@ -36,5 +36,6 @@ public class Main {
             System.out.printf("Nice salary of R$%.2f, dude!", salary);
         }
 
+        sc.close();
     }
 }
